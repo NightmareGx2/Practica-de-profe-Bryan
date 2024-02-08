@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura a tus necesidades */
+}
+  body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: rgba(221, 139, 32, 0.637);
+}
+
+
+
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+    p{
+     color:#ffffff;
+     
+     }
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:120%;
+    z-index: -1;
+  }
